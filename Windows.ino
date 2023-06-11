@@ -38,7 +38,7 @@ void loop() {
     }
     if(validCard==true)
     {
-       for(int i=0; i<17; i++) 
+       for(int i=0; i<17; i++)
          lcd.setCursor(i,0); 
          Keyboard.press(KEY_RETURN); 
          delay(50);
@@ -47,7 +47,7 @@ void loop() {
          Keyboard.press(KEY_RETURN); 
          delay(50);
          Keyboard.releaseAll();
-         lcd.print("MUHAMMET CETINKAYA "); 
+         lcd.print("First-Name || Last-Name "); 
          delay(200);
          lcd.setCursor(i,0);
          lcd.print(" ");
